@@ -34,7 +34,7 @@ function main() {
   })
 
   // pitch
-  const pitchSliders = ['#pitchSlider0', '#pitchSlider1', '#pitchSlider2', '#pitchSlider3'];
+  const pitchSliders = ['#pitchSlider0', '#pitchSlider1', '#pitchSlider2', '#pitchSlider3','#pitchSlider4','#pitchSlider5'];
   pitchSliders.forEach((sliderId, index) => {
     const slider = document.querySelector(sliderId);
     slider.addEventListener('input', () => {
@@ -53,7 +53,8 @@ function main() {
 
 
   // effect section 0(kick)
-  var bypass = 1 ;
+
+
 
   const delay0 = new Tone.FeedbackDelay({
     delayTime : 0,
