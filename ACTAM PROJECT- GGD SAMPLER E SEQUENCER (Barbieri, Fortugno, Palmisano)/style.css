@@ -1,0 +1,94 @@
+html, body {
+  
+  background-color: #389de0;
+}
+canvas {
+  display:inline-grid;
+}
+
+
+#p0 {
+  margin-top: 150px;
+  width: 25%;
+  padding-left: 5%;
+  padding-right: 71%;
+}
+
+.effect-sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin-top: -20 px; /* Regola il margine superiore desiderato per spostare verso il basso */
+  margin-bottom: 10px;
+
+}
+
+.effect-section {
+  width: 200px; /* Regola la larghezza desiderata */
+  height: 490px; /* Regola l'altezza desiderata */
+  background-color: #67a1c7; /* Regola il colore di sfondo desiderato */
+  margin: 0 10px; /* Regola il margine tra i rettangoli */
+  border: 2px solid #031b3d; /* Aggiungi un bordo di 2px di spessore con colore nero */
+  border-radius: 15px;
+  box-shadow: 0px 7px 10px #031b3d, inset 0px 2px 3px #818181, inset 0px -6px 30px #72b5d4;
+  margin-top: -330px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.fx-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 0px; /* Regola il margine superiore desiderato per spostare verso il basso */
+  margin-bottom: 5px;
+
+}
+
+.fx-section1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10px; /* Regola il margine superiore desiderato per spostare verso il basso */
+  margin-bottom: 5px;
+
+}
+
+.label-effect-container {
+  margin-top: 0px; /* Regola il margine superiore desiderato per spostare verso il basso */
+  margin-bottom: 2px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold; /* Testo più spesso */
+  font-family: Arial, sans-serif; /* Font diverso (es. Arial) */
+  color: white; /* Colore del testo azzurro */
+  text-shadow: -1px -1px 0 blue, 1px -1px 0 blue, -1px 1px 0 blue, 1px 1px 0 blue; /* Contorno blu */
+  
+}
+.label-effect-container2 {
+  margin-top: 0px; /* Regola il margine superiore desiderato per spostare verso il basso */
+  margin-bottom: 2px;
+  font-size: 12px;
+  text-align: center;
+  font-family: Arial, sans-serif; /* Font diverso (es. Arial) */
+  color: rgb(10, 10, 10);
+  word-spacing: 15px;
+}
+
+.effect-section2 {
+  width: 150px; /* Regola la larghezza desiderata */
+  height: 220px; /* Regola l'altezza desiderata */
+  background-color: #67a1c7; /* Regola il colore di sfondo desiderato */
+  border: 2px solid #031b3d; /* Aggiungi un bordo di 2px di spessore con colore nero */
+  border-radius: 15px;
+  box-shadow: 0px 7px 10px #031b3d, inset 0px 2px 3px #818181, inset 0px -6px 30px #72b5d4;
+  margin-top: -1300px;
+  margin-left: 1200px;
+  display: flex;
+  flex-direction: column;
+}
